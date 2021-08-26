@@ -1,0 +1,22 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>mytag</short-name>
+    <uri>customtag</uri>
+
+    <tag>
+        <name>header</name>
+        <tag-class>by.toxa.fishingshop.controller.tag.IncludeHeaderTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>role</name>
+            <type>by.toxa.fishingshop.model.entity.Role</type>
+            <rtexprvalue>true</rtexprvalue>
+            <required>true</required>
+             </attribute>
+        <attribute>
+            <name>var</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+</taglib>

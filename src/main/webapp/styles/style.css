@@ -1,0 +1,16 @@
+section{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.carousel-control-prev-icon{
+    background-image: url("../img/left-arrow.svg");
+}
+.carousel-control-next-icon{
+    background-image: url("../img/right-arrow.svg");
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 20px;
+}
+.mx-auto{
+    padding-top: 200px;
+}
